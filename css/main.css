@@ -1,0 +1,188 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: red 3px solid;
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.header_topline {
+	background: #43484c;
+	padding: 15px 0;
+	color: #fff;
+}
+.header_topline a {
+	color: #fff;
+}
+.main_mnu_button {
+	color: #fff;
+	padding: 8px 15px 0;
+	border: medium none;
+	background: transparent;
+	font-size: 26px;
+}
+button:focus {
+	outline: none;
+}
+.top_header {
+	background: #4aaad2;
+}
+.main_mnu {
+	background: #3797bf;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.main_mnu a {
+	color: #fff;
+	padding: 15px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s; 
+}
+.main_mnu a:hover {
+	background: #2787af;
+}
+.main_mnu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-transform: uppercase;
+	z-index: 1;
+	margin: 0 auto;
+}
+.main_mnu ul li {
+	padding-left: 220px;
+}
+.top_contacts {
+	font-size: 20px;
+	padding: 0 15px;
+}
+.main_mnu ul li {
+	display: inline-block;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+	font-family: "NautilusPompiliusRegular", Tahoma, Helvetica, Arial;	
+}
+.slider_container img {
+	max-width: 100%;
+}
+.slider_container {
+	position: relative;
+}
+.next_button,
+.prev_button {
+	color: #fff;
+	font-size: 46px;
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+	top: 40%;
+	background: rgba(210,210,210,.5);
+	padding: 0 25px;
+	border-radius: 50%;
+}
+.next_button {
+	right: 20px;
+}
+.prev_button {
+	left: 20px;
+}
+section.order {
+	background: #eee;
+	padding: 25px 0;
+}
+.sell_descr {
+	font-size: 22px;
+	padding-top: 5px;
+}
+.button {
+	background: #2bc6a4;
+	border: medium none;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.button:hover {
+	background: #4feac8;
+}
+.button:active {
+	background: #14af8d;
+} 
+.sell_right .button {
+	float: right;
+}
+.hidden {
+	display: none;
+}
+.pop_form input[type=text] {
+	display: block;
+	width: 90%;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	border: #999 3px solid;
+}
+.pop_form .button {
+	margin: 15px auto 0;
+}
+.pop_form h3 {
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "RobotoCondensedBold";
+	text-transform: uppercase;
+}
+
+/*Оформление галереи*/
+a {
+	outline: none;
+}
+div#wrap {
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin: 10px 5px 10px 0;
+}
+
+/*Футер*/
+footer {
+	text-align: center;
+	font-size: 15px;
+	background: #43484c;
+	padding: 10px 0;
+	color: #fff;
+}
+footer a:link {
+	color: #fff;
+}
